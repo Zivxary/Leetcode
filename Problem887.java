@@ -9,16 +9,16 @@ class Solution {
         int z = 0;
         
         int len = grid.length;
-        int[] xtmp = new int[len];
+        int[] xTmp = new int[len];
         
         for(int i = 0; i < len; i++) {
             int yTmp = 0;
             for(int j = 0; j < len; j++) {
-                if(grid[i][j] > xtmp[j]) {
-                    xtmp[j] = grid[i][j];
+                if(grid[i][j] > xTmp[j]) {
+                    xTmp[j] = grid[i][j];
                 }
                 if( i==len-1) {
-                    x += xtmp[j];
+                    x += xTmp[j];
                 }
                 if(grid[i][j] > yTmp) {
                     yTmp = grid[i][j];
