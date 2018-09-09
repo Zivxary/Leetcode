@@ -1,4 +1,4 @@
-// 2018.8.28
+-- 2018.8.28
 /*
 https://leetcode.com/problems/duplicate-emails/description/
 */
